@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">FoodFinder</string>
+    <string name="welcome">Welcome to !</string>
+    <string name="edit_username">Tên đăng nhập</string>
+    <string name="password">Mật khẩu</string>
+    <string name="btn_login">Đăng nhập</string>
+    <string name="btn_register">Đăng ký</string>
+    <string name="forgot_password"><u>Quên mật khẩu?</u></string>
+    <string name="do_not_have_account">Bạn chưa có tài khoản?</string>
+    <string name="already_have_account">Bạn có tài khoản?</string>
+    <string name="register"><u>Đăng ký ngay</u></string>
+    <string name="phone">Số điện thoại</string>
+    <string name="action_home">Home</string>
+    <string name="action_cart">Cart</string>
+    <string name="action_account">Account</string>
+    <string name="action_notification">Notifications</string>
+    <!-- profile -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile_name">Nguyễn Văn A</string>
+    <string name="profile_email">nguyenvana@gmail.com</string>
+    <string name="title_personal_info">Thông tin cá nhân</string>
+    <string name="title_history">Lịch sử giao dịch</string>
+    <string name="title_link">Liên kết ví điện tử</string>
+    <string name="title_question">Câu hỏi</string>
+    <string name="title_introduce">Giới thiệu</string>
+    <string name="title_condition">Điều khoản</string>
+    <string name="title_support">Hỗ trợ</string>
+    <string name="log_out">Đăng xuất</string>
+    <string name="top_categories">Top Categories</string>
+    <string name="show_all_categories">Show All</string>
+    <string name="todo">TODO</string>
+    <string name="action_material">Material</string>
+
+
+</resources>
