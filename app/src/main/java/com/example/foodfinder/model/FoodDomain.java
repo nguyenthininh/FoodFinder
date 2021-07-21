@@ -4,26 +4,23 @@ public class FoodDomain {
     private String title;
     private int image;
     private String desc;
-    private String place;
-    private Double fee;
+    private String price;
     private int numberIntCard;
 
-    public FoodDomain(String title, int image, String desc, String place, Double fee) {
+    public FoodDomain(String title, int image, String price) {
         this.title = title;
         this.image = image;
-        this.desc = desc;
-        this.place = place;
-        this.fee = fee;
+        this.price = price;
     }
 
-    public FoodDomain(String title, int image, String desc, String place, Double fee, int numberIntCard) {
+    public FoodDomain(String title, int image, String desc, String price, int numberIntCard) {
         this.title = title;
         this.image = image;
         this.desc = desc;
-        this.place = place;
-        this.fee = fee;
+        this.price = price;
         this.numberIntCard = numberIntCard;
     }
+
 
     public String getTitle() {
         return title;
@@ -49,20 +46,12 @@ public class FoodDomain {
         this.desc = desc;
     }
 
-    public String getPlace() {
-        return place;
+    public String getPrice() {
+        return price;
     }
 
-    public void setPlace(String place) {
-        this.place = place;
-    }
-
-    public Double getFee() {
-        return fee;
-    }
-
-    public void setFee(Double fee) {
-        this.fee = fee;
+    public void setPrice(String price) {
+        this.price = price;
     }
 
     public int getNumberIntCard() {

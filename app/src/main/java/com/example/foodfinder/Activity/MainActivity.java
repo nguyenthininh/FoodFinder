@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.navigation_home:
                     fragment = new HomeFragment();
                     break;
-                case R.id.navigation_profile:
+                case R.id.navigation_account:
                     fragment = new ProfileFragment(
                     );
                     break;
@@ -53,6 +53,5 @@ public class MainActivity extends AppCompatActivity {
             bottomNavigationView.setSelectedItemId(R.id.navigation_home);
         }
     }
-
 
 }

@@ -20,7 +20,7 @@
        tools:ignore="ContentDescription" />
 
    <EditText
-       android:id="@+id/ed_username"
+       android:id="@+id/input_phone"
        android:layout_width="0dp"
        android:layout_height="wrap_content"
        android:layout_marginStart="32dp"
@@ -30,7 +30,7 @@
        android:drawableStart="@drawable/bxs_phone"
        android:drawablePadding="16dp"
        android:ems="10"
-       android:hint="@string/edit_username"
+       android:hint="@string/input_phone"
        android:inputType="phone"
        android:padding="16dp"
        app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +41,7 @@
        android:drawableLeft="@drawable/bxs_phone" />
 
    <EditText
-       android:id="@+id/ed_password"
+       android:id="@+id/input_pass"
        android:layout_width="0dp"
        android:layout_height="wrap_content"
        android:layout_marginStart="32dp"
@@ -58,7 +58,7 @@
        app:layout_constraintEnd_toEndOf="parent"
        app:layout_constraintHorizontal_bias="0"
        app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toBottomOf="@id/ed_username"
+       app:layout_constraintTop_toBottomOf="@id/input_phone"
        tools:ignore="Autofill"
        android:drawableLeft="@drawable/ic_lock"
        android:drawableRight="@drawable/ic_eye" />
@@ -76,7 +76,7 @@
        android:textSize="16sp"
        app:layout_constraintEnd_toEndOf="parent"
        app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toBottomOf="@id/ed_password" />
+       app:layout_constraintTop_toBottomOf="@id/input_pass" />
 
    <TextView
        android:id="@+id/tv_forgot_password"

@@ -31,7 +31,7 @@
         android:background="@drawable/round_border"
         android:drawablePadding="16dp"
         android:ems="10"
-        android:hint="@string/edit_username"
+        android:hint="@string/input_phone"
         android:inputType="phone"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"

@@ -1,39 +1,33 @@
 package com.example.foodfinder.adapter;
 
-import android.app.Activity;
-import android.os.Build;
+import android.content.Context;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
-import androidx.annotation.RequiresApi;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.constraintlayout.widget.Group;
-import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.example.foodfinder.R;
 import com.example.foodfinder.model.CategoryDomain;
-
-import java.time.Instant;
 import java.util.ArrayList;
 
 public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.CategoryViewHolder> {
-    Activity activity;
     ArrayList<CategoryDomain> categoryDomains;
-    private Instant Glide;
 
-    public CategoryAdapter(Activity activity, ArrayList<CategoryDomain> categoryDomains) {
-        this.activity = activity;
+    public CategoryAdapter( ArrayList<CategoryDomain> categoryDomains) {
         this.categoryDomains = categoryDomains;
     }
 
     @NonNull
     @Override
     public CategoryViewHolder onCreateViewHolder(@NonNull  ViewGroup parent, int viewType) {
-        View itemView = activity.getLayoutInflater().inflate(R.layout.fragment_item_category,parent,false);
+        Context context = parent.getContext();
+        LayoutInflater inflater;
+        inflater = LayoutInflater.from(context);
+
+        View itemView = inflater.inflate(R.layout.fragment_item_category,parent,false);
         CategoryViewHolder holder;
         holder = new CategoryViewHolder(itemView);
         return holder;

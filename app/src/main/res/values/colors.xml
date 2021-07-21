@@ -10,4 +10,6 @@
     <color name="layout_green">#E68E0D</color>
     <color name="gray">#535151</color>
     <color name="layout_red">#B00020</color>
+    <color name="orange">#DC562C</color>
+    <color name="dark_grey">#FFACA9A9</color>
 </resources>

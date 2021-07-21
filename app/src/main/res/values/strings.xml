@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">FoodFinder</string>
     <string name="welcome">Welcome to !</string>
-    <string name="edit_username">Tên đăng nhập</string>
+    <string name="input_phone">Số điện thoại</string>
     <string name="password">Mật khẩu</string>
     <string name="btn_login">Đăng nhập</string>
     <string name="btn_register">Đăng ký</string>
@@ -27,7 +27,7 @@
     <string name="title_support">Hỗ trợ</string>
     <string name="log_out">Đăng xuất</string>
     <string name="top_categories">Top Categories</string>
-    <string name="show_all_categories">Show All</string>
+    <string name="show_all">Show All</string>
     <string name="todo">TODO</string>
     <string name="action_material">Material</string>
 
